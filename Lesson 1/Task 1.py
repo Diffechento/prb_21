@@ -1,6 +1,7 @@
-def main():
-    input_string = input() # Вводим строку с клавиатуры
-    print(len(input_string)) # С помощью функции len получаем длинну полученной строки и выводим
+def string_lenght(a):
+    return (len(a))  # С помощью функции len получаем длинну полученной строки и возвращаем значение
+
 
 if __name__ == '__main__':
-    main()
+    input_string = input()  # Вводим строку с клавиатуры
+    print(string_lenght(input_string)) # Выводим значение функции
