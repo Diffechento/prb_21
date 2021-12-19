@@ -1,5 +1,5 @@
-def string_lenght(a):
-    return (len(a))  # С помощью функции len получаем длинну полученной строки и возвращаем значение
+def string_lenght(string):
+    return (len(string))  # С помощью функции len получаем длинну полученной строки и возвращаем значение
 
 
 if __name__ == '__main__':
